@@ -1,23 +1,22 @@
 <script setup lang="ts">
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
 // import Test from './components/test'
 </script>
 
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+  <!-- <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" /> -->
   <!-- <Test></Test> -->
+  <DButton type="primary" size="medium" block>块级按钮</DButton>
+  <DButton type="primary" size="large" disabled>确定</DButton>
+  <DButton type="text" size="medium">取消</DButton>
+  <DButton type="secondary" size="small">测试</DButton>
 </template>
 
-<style>
+<style lang="scss">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  padding-top: 200px;
+  width: 800px;
+  margin: auto;
 }
 </style>
