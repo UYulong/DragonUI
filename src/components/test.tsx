@@ -20,7 +20,7 @@ export default defineComponent({
     }
   },
 
-  setup(props, ctx) {
+  setup() {
     const count = ref(0)
 
     const list = ref<string[]>(['a', 'b', 'c'])

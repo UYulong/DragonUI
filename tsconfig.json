@@ -15,6 +15,9 @@
       "esnext",
       "dom"
     ],
+    "types": [
+      "vitest/globals"
+    ],
     "skipLibCheck": true
   },
   "include": [
