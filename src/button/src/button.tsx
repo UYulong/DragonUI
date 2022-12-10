@@ -12,7 +12,7 @@ export default defineComponent({
     const blockCls = block.value ? 's-btn--block' : ''
 
     return () => {
-      const text = slots.default ? slots.default() : ''
+      const text = slots.default ? slots.default() : '按钮'
       return (
         <button
           disabled={disabled.value}
